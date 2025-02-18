@@ -19,7 +19,7 @@ INSERT INTO organism (name, description, role, target, priorities) values("CNAM"
 "Digitalisation(améli, dossier médical partagé, e-prescription)|Prévention(dépistages, vaccination, santé publique)|Maîtrise des dépenses(médicaments génériques, optimisation)");
 
 INSERT INTO organism (name, description, role, target, priorities) values("CPAM",
-"Caisse primaire d'assurance maladie", "Antenne locale de la CNAM, présente dans chaque département"
+"Caisse primaire d'assurance maladie, antenne locale de la CNAM, présente dans chaque département",
 "Assure le remboursement des soins aux assurés sociaux|Gère les droits des assurés(carte vitale, arrêt maladie, maternité...)|Met en place des actions de prévention et d'accompagnement des patients",
 "Assurés",
 "Appliquer les décisions|Gérer les relations avec les assurés");
