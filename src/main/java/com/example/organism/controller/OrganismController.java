@@ -2,6 +2,7 @@ package com.example.organism.controller;
 
 import java.util.List;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +20,7 @@ public class OrganismController {
 		this.repository = repository;
 	}
 	
-	@GetMapping
+	@GetMapping(produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
 	public List<Organism> getAll(){
 		return repository.findAll();
 	}
